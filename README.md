@@ -22,3 +22,30 @@ Scorciatoie da tastiera:
 - `F5` esegue la query ho il codice selezionato.
 
 - `Ctrl + R` chiude la vista dei risultati.
+
+
+## Create 'TimeSheets' database
+
+Creato un nuovo database 'TimeSheets' con le seguenti impostazioni:
+
+- File RAW: initial size 40MB, Autogrowth (default) 64, Maxsize (default) unlimited;
+
+- File LOG: initial size 20MB, Autogrowth (default) 64, Maxsize (default) unlimited;
+
+
+Opzioni:
+
+- Compatibility level: SQL Server 2016
+
+- Recory Mode: Full (in production), Simple (in developer machine)
+
+Per creare un database attraverso uno script sql con i valori di default basta la seguente istruzione:
+
+```
+CREATE DATABASE [TimeSheets];
+```
+
+per eliminare un database dal server si usano l' istruzione:
+```
+DROP DATABASE [db-name];
+```
