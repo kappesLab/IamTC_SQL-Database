@@ -13,3 +13,12 @@ Per accadere usare l'autenticazione di tipo `Motore di Databse` accaunt `sa` con
 
 
 > L'account `sa` sta per "System Administarator".
+
+
+## Microsoft SQL Server Management Studio
+
+Scorciatoie da tastiera:
+
+- `F5` esegue la query ho il codice selezionato.
+
+- `Ctrl + R` chiude la vista dei risultati.
