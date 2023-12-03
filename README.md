@@ -15,7 +15,7 @@ Per accadere usare l'autenticazione di tipo `Motore di Databse` accaunt `sa` con
 > L'account `sa` sta per "System Administarator".
 
 
-## Microsoft SQL Server Management Studio
+## Microsoft SQL Server Management Studio (SSMS)
 
 Scorciatoie da tastiera:
 
@@ -24,7 +24,7 @@ Scorciatoie da tastiera:
 - `Ctrl + R` chiude la vista dei risultati.
 
 
-## Create 'TimeSheets' database
+## Create database: 'TimeSheets' 
 
 Creato un nuovo database 'TimeSheets' con le seguenti impostazioni:
 
@@ -49,3 +49,7 @@ per eliminare un database dal server si usano l' istruzione:
 ```
 DROP DATABASE [db-name];
 ```
+
+## Table
+
+Create le tabelle attraverso SSMS e salvati gli script nel repository.
