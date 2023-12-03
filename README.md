@@ -19,9 +19,11 @@ Per accadere usare l'autenticazione di tipo `Motore di Databse` accaunt `sa` con
 
 Scorciatoie da tastiera:
 
-- `F5` esegue la query ho il codice selezionato.
+- `F5`: esegue la query ho il codice selezionato.
 
-- `Ctrl + R` chiude la vista dei risultati.
+- `Ctrl + R`: apre / chiude la vista dei risultati.
+
+- `Ctrl + SHIFT + R`: refresh the query windows text
 
 
 ## Create database: 'TimeSheets' 
@@ -53,3 +55,28 @@ DROP DATABASE [db-name];
 ## Table
 
 Create le tabelle attraverso SSMS e salvati gli script nel repository.
+
+`dbo`: is the default *data base owner*
+
+## Inserimento di dati di prova nelle tabelle
+
+### 1) Metodo
+Selezionare la tabelle e con il tasto dx del mouse scegliere l'opzione 'Edit Top 200 row'.
+
+### 2) Metodo
+Attraverso una query di script.
+
+```
+INSERT INTO dbo.Customers (CompanyName, PhoneNumber, EmailAddress)
+VALUES ('XYZ Corp.', '555-1212', 'hr@xyz.org');
+
+```
+
+
+## Query
+
+- `inner join`: only the records that match.
+
+- `left join`: all the records from the left table, and all the mathching records from the right table.
+
+- `right join`: all the records from the right table, and all the mathching records from the left table
