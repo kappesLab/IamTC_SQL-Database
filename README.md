@@ -80,3 +80,9 @@ VALUES ('XYZ Corp.', '555-1212', 'hr@xyz.org');
 - `left join`: all the records from the left table, and all the mathching records from the right table.
 
 - `right join`: all the records from the right table, and all the mathching records from the left table
+
+
+## Foreing Key Relationships
+Informare il motore SQL sulle relazioni esistenti tra le varie tabelle del database aiuta nelle prestazioni di esecuzione delle query. Inoltre si può stabilire quale politica adottare sulla modifica o eliminazione dei record interessati alle relazioni.
+
+> `Foreing Key` è la parte MOLTI della relazione.
