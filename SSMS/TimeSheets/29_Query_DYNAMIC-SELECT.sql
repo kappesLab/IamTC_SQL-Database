@@ -35,6 +35,11 @@ where l.CustomerId = 2
 group by e.FirstName, e.LastName
 order by sum(w.HoursWorked) desc
 
+/*
+Quando si usa una DYNAMIC TABLE nella clausula SELECT, questa deve 
+avere una sola riga (top 1) che viene riapplicta (ricalcolata) su ogni
+riga della query esterna
+*/
 
 -- STEP #4
 select c.CompanyName
