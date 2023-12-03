@@ -86,3 +86,14 @@ VALUES ('XYZ Corp.', '555-1212', 'hr@xyz.org');
 Informare il motore SQL sulle relazioni esistenti tra le varie tabelle del database aiuta nelle prestazioni di esecuzione delle query. Inoltre si può stabilire quale politica adottare sulla modifica o eliminazione dei record interessati alle relazioni.
 
 > `Foreing Key` è la parte MOLTI della relazione.
+
+
+
+## Extimate Execution Plan
+SSMS fornisce strumenti per stimare il tempo di esecuzione delle query, in particolare mostra che percentuale del tempo di esecuzione occupano le varie istruzione dello script.
+
+Attraverso lo strumento *Extimate Execution Plan* è possibile, ed è molto utile, confrontare due query diverse che svolgono compiti simili. Queste vengono messe a confronto sotto forma di percentuale, quella che ottiene una percentuale minore svolge il lavoro più efficacemente.
+
+Attivando l'opzione `Actual Execution Plan` dopo aver eseguito la query o le query è possibile stimare eventuali problemi interni al database.
+
+![problem](./execution-plan.png)
