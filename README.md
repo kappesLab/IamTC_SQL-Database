@@ -101,3 +101,12 @@ Attivando l'opzione `Actual Execution Plan` dopo aver eseguito la query o le que
 
 ## Views
 Essenzialmente le *Views* sono *SELECT query* (no UPDATE e no DELETE) salvate nel database. L'interfaccia di creazione delle Views è molto simile all'interfaccia *query Builder* di *MsAccess*. 
+
+## Stored Procedures
+E' consigliabile usare le *stored prodedures* il più possibile, esse sono uno degli strumenti più importanti all'interno di un database MS-SQL Server.
+
+Una *stored procedure* può eseguire qualsiasi tipo di query all'interno del database, SELECT, UPDATE o DELETE. Inoltre è possibile utilizzarla passandogli dei parametri. Quindi con questo strumento è possibile manipolare i dati del database. Essendo queste funzioni precompilate sono molto veloci. 
+
+Inoltre aiutano ad aumentare la sicurezza perché richiamandole dall'esterno è possibile accedere e/o modificare i dati non lavorando direttamente sulle tabelle ma semplicemente passando dei parametri a delle funzioni. Hanno quindi una funzione d'interfaccia verso il mondo esterno. E' quindi possibile creare un *utente* che ha l'accesso alle sole *store procedures* proteggendo di fatto l'accesso alla struttura interna del database.
+
+Per eseguire una *stored prodecure* all'interno di uno script sql si usa il comando `exec` seguto dal nome della funzione 
