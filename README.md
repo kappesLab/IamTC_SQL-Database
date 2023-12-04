@@ -97,3 +97,7 @@ Attraverso lo strumento *Extimate Execution Plan* è possibile, ed è molto util
 Attivando l'opzione `Actual Execution Plan` dopo aver eseguito la query o le query è possibile stimare eventuali problemi interni al database.
 
 ![problem](./execution-plan.png)
+
+
+## Views
+Essenzialmente le *Views* sono *SELECT query* (no UPDATE e no DELETE) salvate nel database. L'interfaccia di creazione delle Views è molto simile all'interfaccia *query Builder* di *MsAccess*. 
