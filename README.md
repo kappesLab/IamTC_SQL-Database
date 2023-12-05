@@ -113,3 +113,6 @@ Per eseguire una *stored prodecure* all'interno di uno script sql si usa il coma
 
 
 ## Backup and Restore DB
+
+
+# Visual Studio - SQL Database Project: "PersonDB"
