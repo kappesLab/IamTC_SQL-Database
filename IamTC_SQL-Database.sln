@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PersonDB", "PersonDB\PersonDB.sqlproj", "{A8EA13C0-4567-44E7-8DFB-1B048F822332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AC5C77D2-FD76-4B17-BBAD-0F514EE9A36E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8EA13C0-4567-44E7-8DFB-1B048F822332}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D575C5E-2782-418A-B7E6-374E4004594D}
+	EndGlobalSection
+EndGlobal
