@@ -67,6 +67,7 @@
     <Build Include="dbo\Tables\PhoneNumber.sql" />
     <Build Include="dbo\Tables\Location.sql" />
     <Build Include="dbo\Tables\LocationVisit.sql" />
+    <Build Include="dbo\Views\vwPersonPrimaryPhone.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PersonDB.refactorlog" />
