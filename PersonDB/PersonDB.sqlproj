@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{a8ea13c0-4567-44e7-8dfb-1b048f822332}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql160DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -68,8 +68,13 @@
     <Build Include="dbo\Tables\Location.sql" />
     <Build Include="dbo\Tables\LocationVisit.sql" />
     <Build Include="dbo\Views\vwPersonPrimaryPhone.sql" />
+    <Build Include="dbo\StoredProcedures\spPerson_LocationVisited.sql" />
+    <Build Include="dbo\StoredProcedures\Location_PeopleVisited.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="PersonDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PublishProfiles\PersonDB.publish.xml" />
   </ItemGroup>
 </Project>
